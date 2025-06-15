@@ -1,0 +1,32 @@
+# Core FastAPI dependencies
+fastapi==0.115.11
+uvicorn==0.34.0
+pydantic==2.10.6
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.39
+python-dotenv==1.0.1
+
+# Document processing
+PyPDF2==3.0.1
+beautifulsoup4==4.12.3
+requests==2.32.3
+
+# Vector search (lightweight alternative)
+qdrant-client==1.12.0
+
+# Text processing (minimal)
+langchain-text-splitters==0.3.8
+
+# Web scraping for URL to PDF
+playwright==1.49.1
+langchain==0.3.15
+
+# Additional utilities
+httpx==0.28.1
+
+# Added from the code block
+feedparser==6.0.11
+torch>=1.11.0
+sentence-transformers==2.2.2
